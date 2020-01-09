@@ -1,0 +1,47 @@
+[
+  {
+    "UserData": {
+      "Username": "TestUser",
+      "Name": "Rasmus Testsson",
+      "PasswordHash": "1Jus/AaXT99go8KF4NA39GfnCRgMABSyRAHbGQ04KBI=",
+      "Salt": "BkPdVRlJYsasPVyCkWJ2Uw=="
+    },
+    "LogTime": "2020-01-05T16:50:16.8865515+02:00"
+  },
+  {
+    "UserData": {
+      "Username": "TestUser",
+      "Name": "Rasmus Testsson",
+      "PasswordHash": "1Jus/AaXT99go8KF4NA39GfnCRgMABSyRAHbGQ04KBI=",
+      "Salt": "BkPdVRlJYsasPVyCkWJ2Uw=="
+    },
+    "LogTime": "2020-01-05T16:51:46.8028866+02:00"
+  },
+  {
+    "UserData": {
+      "Username": "SecondTest",
+      "Name": "Tester",
+      "PasswordHash": "L+TXIGew/XVlcQVLncptDYxklCXzoj7wDYW557VkN+s=",
+      "Salt": "y+qNuou/+cst1ER/0kD8JA=="
+    },
+    "LogTime": "2020-01-05T20:01:18.572742+02:00"
+  },
+  {
+    "UserData": {
+      "Username": "TestUser",
+      "Name": "Rasmus Testsson",
+      "PasswordHash": "1Jus/AaXT99go8KF4NA39GfnCRgMABSyRAHbGQ04KBI=",
+      "Salt": "BkPdVRlJYsasPVyCkWJ2Uw=="
+    },
+    "LogTime": "2020-01-05T21:02:37.4625368+02:00"
+  },
+  {
+    "UserData": {
+      "Username": "TestUser",
+      "Name": "Rasmus Testsson",
+      "PasswordHash": "1Jus/AaXT99go8KF4NA39GfnCRgMABSyRAHbGQ04KBI=",
+      "Salt": "BkPdVRlJYsasPVyCkWJ2Uw=="
+    },
+    "LogTime": "2020-01-06T10:06:44.0805803+02:00"
+  }
+]

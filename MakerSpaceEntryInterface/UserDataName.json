@@ -1,0 +1,14 @@
+[
+  {
+    "Username": "TestUser",
+    "Name": "Rasmus Testsson",
+    "PasswordHash": "1Jus/AaXT99go8KF4NA39GfnCRgMABSyRAHbGQ04KBI=",
+    "Salt": "BkPdVRlJYsasPVyCkWJ2Uw=="
+  },
+  {
+    "Username": "thirdUser",
+    "Name": "qwerty",
+    "PasswordHash": "AUGM3zGonaWfqQrrVSG1G7dOcIdXa8kw3hixHwzRpcQ=",
+    "Salt": "0CX1yYHLX+X9eMVhkScKRw=="
+  }
+]
