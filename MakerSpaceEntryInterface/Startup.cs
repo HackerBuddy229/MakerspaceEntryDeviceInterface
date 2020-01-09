@@ -31,6 +31,24 @@ namespace MakerSpaceEntryInterface
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+            
+            services.AddMvc(
+                options =>
+                {
+                    options.SslPort = 44321;
+                    options.Filters.Add(new RequireHttpsAttribute());
+                }
+            );
+
+            services.AddAntiforgery(
+                options =>
+                {
+                    options.Cookie.Name = "_af";
+                    options.Cookie.HttpOnly = true;
+                    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+                    options.HeaderName = "X-XSRF-TOKEN";
+                }
+            );
 
             services.AddTransient<DataServices>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);

@@ -30,7 +30,7 @@ namespace MakerSpaceEntryInterface.Controllers
                 return View(); 
             }
             var salt = PasswordServices.SaltGen();
-            var newUser = new UserDataModel(username:newUserModel.Username, name: newUserModel.Name, PasswordServices.HashGen(salt, newUserModel.Password), salt);
+            var newUser = new UserDataModel(newUserModel.Username,  newUserModel.Name, PasswordServices.HashGen(salt, newUserModel.Password), salt);
             var newUserList = new List<UserDataModel>();
             newUserList.Add(newUser);
             dataServices.SaveUserData(newUserList, false);
@@ -48,7 +48,7 @@ namespace MakerSpaceEntryInterface.Controllers
         public IActionResult DeleteUser(DeleteUserRequest deleteUserRequest, DataServices dataServices)
         {
             var user = dataServices.GetUserData().Where(u => u.Username.Equals(deleteUserRequest.Username));
-            if (user == null || user.Count() == 0)
+            if (user.Count() == 0)
             {
                 return View();
             }

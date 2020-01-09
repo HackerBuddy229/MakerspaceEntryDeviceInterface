@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rasmusb\\source\\repos\\MakerSpaceEntryInterface\\MakerSpaceEntryInterface\\MakerSpaceEntryInterface.csproj": {}
+    "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/MakerSpaceEntryInterface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rasmusb\\source\\repos\\MakerSpaceEntryInterface\\MakerSpaceEntryInterface\\MakerSpaceEntryInterface.csproj": {
+    "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/MakerSpaceEntryInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rasmusb\\source\\repos\\MakerSpaceEntryInterface\\MakerSpaceEntryInterface\\MakerSpaceEntryInterface.csproj",
+        "projectUniqueName": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/MakerSpaceEntryInterface.csproj",
         "projectName": "MakerSpaceEntryInterface",
-        "projectPath": "C:\\Users\\rasmusb\\source\\repos\\MakerSpaceEntryInterface\\MakerSpaceEntryInterface\\MakerSpaceEntryInterface.csproj",
-        "packagesPath": "C:\\Users\\rasmusb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rasmusb\\source\\repos\\MakerSpaceEntryInterface\\MakerSpaceEntryInterface\\obj\\",
+        "projectPath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/MakerSpaceEntryInterface.csproj",
+        "packagesPath": "/home/hackerbuddy/.nuget/packages/",
+        "outputPath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rasmusb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hackerbuddy/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,10 +67,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/home/hackerbuddy/dotnet-sdk-3.1.100-linux-x64/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     }
