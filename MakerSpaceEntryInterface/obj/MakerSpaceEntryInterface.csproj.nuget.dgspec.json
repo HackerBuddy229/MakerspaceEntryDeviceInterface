@@ -10,11 +10,14 @@
         "projectUniqueName": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/MakerSpaceEntryInterface.csproj",
         "projectName": "MakerSpaceEntryInterface",
         "projectPath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/MakerSpaceEntryInterface.csproj",
-        "packagesPath": "/home/hackerbuddy/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/home/hackerbuddy/dotnet-sdk-2.2.207-linux-x64/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/hackerbuddy/.config/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -67,16 +70,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/home/hackerbuddy/dotnet-sdk-3.1.100-linux-x64/sdk/3.1.100/RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

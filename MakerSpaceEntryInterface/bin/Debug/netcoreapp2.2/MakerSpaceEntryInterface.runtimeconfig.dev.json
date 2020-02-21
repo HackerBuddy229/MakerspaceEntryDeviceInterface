@@ -3,7 +3,7 @@
     "additionalProbingPaths": [
       "/root/.dotnet/store/|arch|/|tfm|",
       "/root/.nuget/packages",
-      "/opt/dotnet/sdk/NuGetFallbackFolder"
+      "/home/hackerbuddy/dotnet-sdk-2.2.207-linux-x64/sdk/NuGetFallbackFolder"
     ]
   }
 }
