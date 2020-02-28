@@ -1,9 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/root/.dotnet/store/|arch|/|tfm|",
-      "/root/.nuget/packages",
-      "/home/hackerbuddy/dotnet-sdk-2.2.207-linux-x64/sdk/NuGetFallbackFolder"
+      "C:\\Users\\rasmusb\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\rasmusb\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }

@@ -7,11 +7,23 @@ using Microsoft.AspNetCore.Mvc;
 using MakerSpaceEntryInterface.Models;
 using MakerSpaceEntryInterface.Services;
 using MakerSpaceEntryInterface.Models.DatabaseModels;
+using System.Device.Gpio;
+using System.Threading;
 
 namespace MakerSpaceEntryInterface.Controllers
 {
     public class HomeController : Controller
     {
+
+        private readonly GpioController controller;
+        private int pinOut;
+
+        public HomeController(GpioController gpioController)
+        {
+            this.controller = gpioController;
+            pinOut = 17;
+            controller.OpenPin(pinOut, PinMode.Output);
+        }
 
         [HttpGet]
         public IActionResult Index()
@@ -61,11 +73,16 @@ namespace MakerSpaceEntryInterface.Controllers
         [HttpGet]
         public IActionResult Information()
         {
+
             return View();
         }
 
         public IActionResult Unlocked()
         {
+
+            controller.Write(pinOut, PinValue.High);
+            Thread.Sleep(1000);
+            controller.Write(pinOut, PinValue.Low);
             return View();
         }
     }

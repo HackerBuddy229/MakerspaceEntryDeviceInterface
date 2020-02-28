@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Device.Gpio;
 
 namespace MakerSpaceEntryInterface
 {
@@ -49,7 +50,7 @@ namespace MakerSpaceEntryInterface
                     options.HeaderName = "X-XSRF-TOKEN";
                 }
             );
-
+            services.AddSingleton<GpioController>();
             services.AddTransient<DataServices>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
