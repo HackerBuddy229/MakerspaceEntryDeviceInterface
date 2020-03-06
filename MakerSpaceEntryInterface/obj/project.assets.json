@@ -13220,7 +13220,7 @@
     ]
   },
   "packageFolders": {
-    "/home/hackerbuddy/.nuget/packages/": {},
+    "/root/.nuget/packages/": {},
     "/home/hackerbuddy/dotnet-sdk-2.2.207-linux-x64/sdk/NuGetFallbackFolder": {}
   },
   "project": {
@@ -13229,14 +13229,14 @@
       "projectUniqueName": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/MakerSpaceEntryInterface.csproj",
       "projectName": "MakerSpaceEntryInterface",
       "projectPath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/MakerSpaceEntryInterface.csproj",
-      "packagesPath": "/home/hackerbuddy/.nuget/packages/",
+      "packagesPath": "/root/.nuget/packages/",
       "outputPath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/home/hackerbuddy/dotnet-sdk-2.2.207-linux-x64/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/hackerbuddy/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

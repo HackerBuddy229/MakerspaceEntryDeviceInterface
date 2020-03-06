@@ -1,0 +1,75 @@
+{
+  "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/MakerSpaceEntryInterface.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "MakerSpaceEntryInterface",
+  "Documents": [
+    {
+      "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/Views/_ViewStart.cshtml",
+      "TargetPath": "Views/_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/Views/Home/Information.cshtml",
+      "TargetPath": "Views/Home/Information.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/Views/Home/Unlocked.cshtml",
+      "TargetPath": "Views/Home/Unlocked.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/Views/Admin/DeleteUser.cshtml",
+      "TargetPath": "Views/Admin/DeleteUser.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views/Shared/_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/Views/Shared/Error.cshtml",
+      "TargetPath": "Views/Shared/Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views/Shared/_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/Views/_ViewImports.cshtml",
+      "TargetPath": "Views/_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/Views/Admin/Index.cshtml",
+      "TargetPath": "Views/Admin/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/Views/Home/Index.cshtml",
+      "TargetPath": "Views/Home/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/hackerbuddy/repos/MakerspaceEntryDeviceInterface/MakerSpaceEntryInterface/Views/Admin/CreateUser.cshtml",
+      "TargetPath": "Views/Admin/CreateUser.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
